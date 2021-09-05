@@ -17,8 +17,10 @@
     font-size: 20px;
 }
 
-.tombol {
-
+.home .row button a {
+    color: white;
+    text-decoration: none;
+    
 }
 
 .crop-image {
@@ -178,7 +180,7 @@
     transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
 
-.wrappero .icon .tooltip a {
+.wrappero .icon a {
     text-decoration: none;
     color: black;
 }
@@ -226,6 +228,19 @@
     border: 10px solid #CCCCCC;
 }
 
+.tag_web {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.text_nav {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 991.98px) {
     .crop-image {
         background-size: 20px;
@@ -238,6 +253,11 @@
     }
 }
 
+.copy_right {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
 @media screen and (max-width: 560px) {
     .home .col-md-6 {
         margin-bottom: 20px;
@@ -248,6 +268,12 @@
     .about .about_image{
         width: 70%;
     }
+    .copy_right {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (max-width: 768px){
@@ -265,7 +291,11 @@
         margin: 0px;
     }
     .wrapper {
-        margin: 1%;
+        margin-left: 1%;
+    }
+
+    .kontak_text_area{
+        margin-top: 20px;
     }
 }
 
