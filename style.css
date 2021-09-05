@@ -1,0 +1,299 @@
+.home {
+    margin-top: 10%;
+    margin-bottom: 30%;
+}
+
+
+.font_judul {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+}
+
+.deskipsi {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+
+.home .row button a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.crop-image {
+    width: 80%;
+}
+
+.kartu-fit {
+    object-fit: cover;
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #FFF;
+    background-color: #dc3545;
+    margin-top: 10%;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.skill .card:hover {
+    box-shadow: -1px 2px 20px -12px rgba(0, 0,0, 75);
+}
+
+/* .skill .card img {
+    transition: all 1s ease;
+}
+
+.skill .card:hover  img{
+    transform: scale(1.1);
+} */
+.gambar{
+    overflow: hidden;
+}
+.gambar img {
+    transition: all 1s ease;
+}
+
+.gambar:hover  img{
+    transform: scale(1.5);
+}
+
+.wrapper {
+    
+    width: 270px;
+    margin: 0 auto;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+
+.wrapper img {
+    display: block;
+    width: 270px;
+    height: 270px;
+}
+
+.contenct {
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+}
+
+.text_about {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30;
+    font-weight: bold;
+}
+
+.text_title_about {
+   font-family:  'Comfortaa', cursive;
+   font-weight: bold;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: #261C2C
+}
+
+.wrapper:hover .overlay {
+    opacity: 0.8;
+} 
+
+.about img{
+    width: 400px;
+    border: 10px solid #CCCCCC;
+    margin-top: 100px;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.wrappero {
+    display: inline-flex;
+    margin-top:70px;
+}
+
+.wrappero .icon {
+    margin:0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.wrappero .icon span {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    display: block;
+    background: #fff;
+    text-align: center;
+    z-index: 2;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0,0.1);
+}
+
+.wrappero .icon span i {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.wrappero .icon .tooltip {
+    position: absolute;
+    top: 0;
+    background: #fff;
+    padding: 10px 18px;
+    font-size: 20px;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0,0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+
+.wrappero .icon a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrappero .icon:hover .tooltip {
+    top: -70px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.wrappero .icon .tooltip:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.kontak {
+   background-color:white;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    border: 1px solid black;
+    
+}
+
+.title_kontak {
+    color: black;
+}
+
+.kontak button {
+    margin-top: 50px;
+}
+
+.form-control {
+    border: 1px solid black;
+}
+
+.tim img{
+    width: 250px;
+    border: 10px solid #CCCCCC;
+}
+
+.tag_web {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.text_nav {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .crop-image {
+        background-size: 20px;
+    }
+    .home {
+        font-size: 70%;
+    }
+    .home button h5 {
+        font-size: 70%;
+    }
+}
+
+.copy_right {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+@media screen and (max-width: 560px) {
+    .home .col-md-6 {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 70%;
+        margin-top: 20px;
+    }
+    .about .about_image{
+        width: 70%;
+    }
+    .copy_right {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .home .col-md-6 {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 90%;
+    }
+    .skill .row{
+        /* margin: auto;
+        text-align: center; */
+        margin-left: 10%;
+    }
+    .projek {
+        margin: 0px;
+    }
+    .wrapper {
+        margin-left: 1%;
+    }
+
+    .kontak_text_area{
+        margin-top: 20px;
+    }
+}
+
+
