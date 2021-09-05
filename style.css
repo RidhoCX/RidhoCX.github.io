@@ -1,3 +1,10 @@
+.tag_web {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+}
+
 .home {
     margin-top: 10%;
     margin-bottom: 30%;
@@ -223,13 +230,6 @@
 .tim img{
     width: 250px;
     border: 10px solid #CCCCCC;
-}
-
-.tag_web {
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: bold;
-    font-size: 30px;
-    font-style: italic;
 }
 
 .text_nav {
